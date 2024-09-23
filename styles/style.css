@@ -1,0 +1,136 @@
+/* Paleta de cores */
+:root {
+    --primary-color: #117DBF;   /* Azul Escuro */
+    --secondary-color: #7EB6D9; /* Azul Claro */
+    --highlight-color: #05AFF2; /* Ciano */
+    --accent-color: #F2D22E;    /* Amarelo */
+    --alert-color: #D93232;     /* Vermelho */
+    --text-color: #333;         /* Cor do Texto Principal */
+    --background-color: #fff;   /* Fundo Branco */
+}
+
+/* Estilos globais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+a:focus, a:hover {
+    text-decoration: underline;
+}
+
+button, input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+button:hover, input[type="submit"]:hover {
+    background-color: var(--highlight-color);
+}
+button:focus, input[type="submit"]:focus {
+    outline: 2px solid var(--accent-color);
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a {
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+section {
+    margin: 20px 0;
+}
+section h2 {
+    color: var(--primary-color);
+    font-size: 1.92em;
+    border-left: 5px solid var(--accent-color);
+    padding-left: 15px;
+    padding-bottom: 1em;
+}
+section p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+span{
+    color: var(--accent-color);
+}
+p{
+    text-align: justify;
+    text-indent: 2em;
+
+    line-height: 1.8em;
+}
+
+
+/* Alertas */
+.alert {
+    background-color: var(--alert-color);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+    button, input[type="submit"] {
+        width: 100%;
+    }
+}
