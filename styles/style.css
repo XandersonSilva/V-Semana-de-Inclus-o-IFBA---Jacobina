@@ -101,6 +101,9 @@ section p {
     font-size: 1.1em;
     margin-bottom: 15px;
 }
+h3{
+    color: var(--primary-color);
+}
 span{
     color: var(--accent-color);
 }
@@ -110,7 +113,21 @@ p{
 
     line-height: 1.8em;
 }
-
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    background-color: var(--secondary-color);;
+}
+figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h3>li{
+    color: var(--primary-color);
+}
 
 /* Alertas */
 .alert {
