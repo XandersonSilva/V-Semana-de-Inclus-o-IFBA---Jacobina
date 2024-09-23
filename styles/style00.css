@@ -31,7 +31,7 @@ body {
 
 .cabecalho {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 25px;
     max-width: 1170px;    
