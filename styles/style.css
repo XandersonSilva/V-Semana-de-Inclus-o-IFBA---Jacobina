@@ -6,7 +6,7 @@
     --accent-color: #F2D22E;    /* Amarelo */
     --alert-color: #D93232;     /* Vermelho */
     --text-color: #333;         /* Cor do Texto Principal */
-    --background-color: #fff;   /* Fundo Branco */
+    --background-color: #fdfdfd;   /* Fundo Branco */
 }
 
 /* Estilos globais */
@@ -128,6 +128,30 @@ figure{
 h3>li{
     color: var(--primary-color);
 }
+.sumario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left: #117DBF solid 2px;
+    padding: 20px;
+}
+.sumario li{
+    margin: 10px;
+    width: 100%;
+    list-style: none;
+    font-size: large;
+    background-color: var(--primary-color);
+    border-radius: 16px;
+    padding: 5px;
+}
+
+.sumario li a{
+    color: #FFFFFF;
+    margin-left: 1em;
+    font-weight: 550;
+    text-align: justify;
+}
+
 
 /* Alertas */
 .alert {
@@ -150,5 +174,29 @@ h3>li{
     }
     button, input[type="submit"] {
         width: 100%;
+    }
+
+    .sumario{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-left: #117DBF solid 2px;
+        padding: 20px;
+    }
+    .sumario li{
+        margin: 10px;
+        width: 100%;
+        list-style: none;
+        font-size: large;
+        background-color: var(--primary-color);
+        border-radius: 16px;
+        padding: 5px;
+    }
+    
+    .sumario li a{
+        color: #FFFFFF;
+        margin-left: 1em;
+        font-weight: 550;
+        text-align: justify;
     }
 }
