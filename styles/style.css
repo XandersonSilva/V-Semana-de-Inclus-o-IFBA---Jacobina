@@ -65,7 +65,13 @@ header h1 {
 nav {
     background-color: var(--secondary-color);
     padding: 10px;
+    border-radius: 5px;
 }
+
+footer nav{
+    background-color: var(--primary-color);
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -76,6 +82,7 @@ nav ul li a {
     padding: 10px;
     text-transform: uppercase;
     font-weight: bold;
+    color: var(--text-color);
 }
 
 
@@ -118,7 +125,7 @@ footer{
     flex-direction: row;
     justify-content: center;
     width: 100vw;
-    background-color: var(--secondary-color);;
+    background-color: var(--primary-color);;
 }
 figure{
     display: flex;
