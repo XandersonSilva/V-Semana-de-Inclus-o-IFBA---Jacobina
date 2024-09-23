@@ -1,0 +1,40 @@
+/* TABLELAS */
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    font-size: 18px; 
+    font-family: 'Public Sans', sans-serif; 
+    text-align: left; 
+}
+
+th, td {
+    padding: 12px 15px; 
+    border: 1px solid #ddd; 
+}
+
+th {
+    background-color: #1ED760; 
+    color: white;
+    text-transform: uppercase; 
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+tr:hover {
+    background-color: #d1ffd1; 
+}
+
+
+@media (max-width: 768px) {
+    table {
+        font-size: 16px; 
+    }
+
+    th, td {
+        padding: 10px 8px; 
+    }
+}
