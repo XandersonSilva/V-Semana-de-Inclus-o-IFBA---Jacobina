@@ -249,6 +249,9 @@ body {
 }
 
 @media(max-width: 940px){
+    .navegacao{
+        width: 100%;
+    }
     .rodape .navegacao {
         justify-content: center;
     }
