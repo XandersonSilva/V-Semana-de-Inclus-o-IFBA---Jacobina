@@ -28,7 +28,7 @@ a, a:hover{
     text-align: center;
 }
 .imagens_p li{
-    max-width: 150px;
+    width: 150px;
     gap: 10px;
 
 }
