@@ -1,0 +1,51 @@
+h3{
+    border-top: var(--primary-color) solid 1px;
+    display: block;
+    padding: 10px 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.conheca{
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+.conheca p{
+    margin: 0;
+    color: var(--background-color);
+    font-size: 1.5em;
+}
+
+.imagens_p{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+.imagens_p li{
+    max-width: 150px;
+    gap: 10px;
+
+}
+.backgd_no_img{
+    background-color: #6a7175;
+    border-radius: 50%;
+    max-width: 150px;
+}
+.no_img{
+    color: rgb(207 212 214);
+}
+
+.imagens_p li img{
+    border-radius: 50%;
+}
+
+.imagens_p li:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}

@@ -49,11 +49,15 @@ button, input[type="submit"] {
 header {
     background-color: var(--primary-color);
     color: white;
-    padding: 20px 0;
     text-align: center;
 }
 header h1 {
     font-size: 2.5em;
+}
+header>figure{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
 }
 
 nav {
@@ -222,5 +226,10 @@ summary:hover{
         width: 345px;
         border-radius: unset;
         border: none;
+    }
+    header>figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

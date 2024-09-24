@@ -36,13 +36,16 @@ body {
 
 .cabecalho {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 25px;
+    /* align-items: center; */
+    /* padding-bottom: 5px;*/
     max-width: 1170px;    
     margin: 0 auto;
     flex-wrap: wrap;
     scroll-behavior: smooth;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 @media(max-width: 624px) {
