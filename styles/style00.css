@@ -27,6 +27,11 @@ body {
     font-family: 'Public Sans', sans-serif;
 }
 
+.ul-list{
+    list-style: circle;
+    margin-left: 3dvw;
+}
+
 /*CABEÇALHO*/
 
 .cabecalho {
