@@ -1,0 +1,52 @@
+#theme-toggle, svg path{
+    display: flex;
+    background-color: #ffffff00;
+    border: #fff solid 1px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 7px;
+    justify-content: center;
+}
+.dark-theme #theme-toggle{
+    color: #000;
+}
+.dark-theme {
+    background-color:  var(--background-color-dark, #181a1b);
+    color: var(--text-color-dark, #e8e6e3);
+}
+
+.dark-theme p {
+    background-color:  var(--background-color-dark, #181a1b);
+    color: var(--text-color-dark, #e8e6e3);
+}
+
+.dark-theme .copyright{
+    color: var(--text-color-dark-footer, #e8e6e3);
+    background-color: var(--primary-color-dark, #0e6499);
+}
+
+.dark-theme footer, .dark-theme header, .dark-theme footer nav{
+    background-color: var(--primary-color-dark, #0e6499);
+    color: var(--text-color-dark, #e8e6e3);
+}
+.dark-theme nav, .dark-theme .item{
+    background-color: var(--secondary-color-dark, #225575);
+    color: var(--text-color-dark, #e8e6e3);
+}
+
+.dark-theme .sumario li a {
+    color: var(--darkreader-text--background-color, #e8e6e3);
+    background-color: var(--primary-color-dark, #0e6499);
+    border: var(--secondary-color-dark, #225575) solid 2px;
+}
+
+.dark-theme button {
+  color: white;
+  border: 1px solid white;
+
+}
+@media (max-width: 768px) {
+    .dark-theme .sumario {
+        background-color:  var(--background-color-dark, #181a1b);
+    }
+}
