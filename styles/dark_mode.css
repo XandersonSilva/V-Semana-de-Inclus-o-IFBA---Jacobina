@@ -49,4 +49,8 @@
     .dark-theme .sumario {
         background-color:  var(--background-color-dark, #181a1b);
     }
+    #theme-toggle, svg path{
+        border: none;
+        color: #fff;
+    }
 }
