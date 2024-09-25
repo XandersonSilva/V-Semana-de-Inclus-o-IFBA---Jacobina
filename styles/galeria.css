@@ -16,19 +16,25 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 25px;
-    max-width: 1170px;    
+    /* align-items: center; */
+    /* padding-bottom: 5px; */
+    max-width: 1170px;
     margin: 0 auto;
-    background-color: #117DBF   ;
-    padding: 20px 0;
-    color: white;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     text-align: center;
+    background-color: #117DBF;
+    color: #fff;
 }
 
 .cabecalho .titulo {
     font-size: 2.5em;
     font-weight: bold;
+}
+.cabecalho figure{
+    margin: auto;
 }
 
 header h1 {

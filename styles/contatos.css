@@ -42,7 +42,10 @@ a, a:hover{
 }
 
 .imagens_p li img{
+    max-height: 150px;
+    width: 150px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .imagens_p li:hover{

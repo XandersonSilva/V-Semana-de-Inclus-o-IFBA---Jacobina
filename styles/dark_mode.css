@@ -10,7 +10,7 @@
 .dark-theme #theme-toggle{
     color: #000;
 }
-.dark-theme {
+.dark-theme, .dark-theme b, .dark-theme .galeria , .dark-theme h4 {
     background-color:  var(--background-color-dark, #181a1b);
     color: var(--text-color-dark, #e8e6e3);
 }
