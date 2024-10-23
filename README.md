@@ -10,3 +10,4 @@ características:
 - Vlibras
 - Botão para modo claro e escuro
 - Uso de HTML semântico
+- Áudio dos textos
